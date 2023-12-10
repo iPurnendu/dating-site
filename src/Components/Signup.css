@@ -1,0 +1,115 @@
+.registration-container {
+    background: url('couple.jpg') center/cover;
+    height: 115vh;
+    display: flex;
+  }
+  
+  h2 {
+    font-size: 5em;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #ff80bf;
+    -webkit-text-stroke: 2px white;
+    text-shadow: 4px 4px 4px rgba(255, 255, 255, 0.3);
+  }
+  
+  .registration-form {
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 5%;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 38em;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+    background: transparent;
+  }
+  
+  select {
+    width: 39em;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: transparent;
+  }
+  
+  select option {
+    background-color: rgb(99, 99, 99) !important;
+    color: white;
+  }
+  
+  .usergender option:hover {
+    background-color: lightpink !important;
+  }
+  
+  #dobDay-select select {
+    width: 15pc !important;
+    margin-right: 20px;
+  }
+  #dobMonth-select select {
+    width: 15pc !important;
+    margin-right: 20px;
+  }
+  #dobYear-select select {
+    width: 15pc !important;
+  }
+  
+  input::placeholder,
+  select::placeholder {
+    color: white;
+  }
+  
+  .dob-inputs {
+    display: flex;
+  }
+  
+  .dob-inputs input {
+    flex: 1;
+    margin-right: 5px;
+  }
+  
+  button {
+    background-color: #9e54ab;
+    color: #fff;
+    padding: 12px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 30%;
+    margin-left: 26%;
+  }
+  
+  button:hover {
+    background-color: rgb(255, 116, 213);
+    border: 1px solid white;
+  }
+  
+  .error-message {
+    color: white;
+    margin-top: 8px;
+  }
+
+  .profileadded{
+    background-color: rgb(77, 245, 35) !important;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bolder;
+    margin-left: 120px;
+    font-size: larger;
+  }

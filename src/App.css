@@ -1,0 +1,23 @@
+.websitelogo{
+  width: 100px;
+}
+
+.right-aligned{
+  justify-content: flex-end;
+}
+.navbar-color{
+  background: rgb(45,0,247);
+  background: linear-gradient(106deg, rgba(45,0,247,1) 0%, rgba(209,0,209,1) 100%);
+}
+#websitename{
+  font-family: 'Satisfy', cursive;
+  margin-left: 20px;
+  font-weight: bolder;
+  font-size: 50px;
+
+}
+#hide{
+  background-color: rgb(255, 255, 255);
+  height: 110px;
+}
+

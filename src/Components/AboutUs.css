@@ -1,0 +1,77 @@
+
+.backimg{
+    background-image: url('ContactusImg.jpg');
+}
+.bodyy {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-size: cover;
+    background-position: center; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(45,0,247);
+background: linear-gradient(106deg, rgba(45,0,247,1) 0%, rgba(209,0,209,1) 100%);
+  }
+  
+  .about-content {
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .member-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .member-card {
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+    background-color: pink;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .member-card:hover {
+    transform: scale(1.05);
+  }
+  
+  h3 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  strong {
+    color: #333;
+  }
+  
+  a {
+    color: #0077cc;
+  }
+
+  .aboutustext{
+    color: rgb(76, 22, 22)
+    ;
+  }
+  
